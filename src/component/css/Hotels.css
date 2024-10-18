@@ -1,0 +1,187 @@
+.Hotels{
+    width: 100%;
+    height: fit-content;
+}
+.Hotels .bodyHotel{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 30PX;
+}
+.Hotels .bodyHotelCentre{
+    width: 100%;
+    max-width: 1200PX;
+    height: fit-content;
+    display: flex;
+}
+.Hotels .left{
+    width: 250PX;
+    height: fit-content;
+}
+.Hotels .right{
+    flex: 1;
+    height: fit-content;
+}
+.Hotels .PubPlace{
+    width: 100%;
+    height: 350PX;
+    border-radius: 5PX;
+    overflow: hidden;
+}
+.Hotels .reduction{
+    width: 100%;
+    height: 100%;
+}
+.Hotels .PlaceInputs{
+    width: 100%;
+    height: 50PX;
+    margin-top: 20PX;
+    display: flex;
+    justify-content: space-between;
+}
+.Hotels .PlaceInputsItem{
+    width: 43%;
+    height: 100%;
+    border-radius: 5PX;
+    border: 1PX solid gray;
+    overflow: hidden;
+    padding-left: 5PX;
+    padding-right: 5PX;
+    font-family: var(--font1);
+    font-size: 17PX;
+}
+.Hotels .buttonFilter{
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorBleu2);
+    border-radius: 5PX;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    color: var(--colorWhite);
+    font-family: 23PX;
+}
+.Hotels .buttonFilter:hover{
+    background-color: var(--colorBleu);
+}
+.Hotels .topDiv{
+   margin-top: 10PX;
+}
+.Hotels .inpFilter{
+   width: 100%;
+   height: 100%;
+   border: none;
+   outline: none;
+   padding: 0PX;
+}
+.Hotels .elementHotel{
+   width: 30%;
+   height: 250PX;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5PX;
+   margin-left: 1%;
+   cursor: pointer;
+   margin-bottom: 1%;
+   overflow: hidden;
+   padding: 10PX;
+}
+.Hotels .elementHotel:hover{
+   background-color: rgb(245, 245, 245);
+   transform: scale(1.01);
+   box-shadow: 1PX 1PX 5PX rgb(218, 218, 218);
+}
+.Hotels .ImageHotel{
+   width: 100%;
+   height: 160PX;
+   background-color: rgb(220, 220, 220);
+   border-radius: 5PX;
+   overflow: hidden;
+}
+.Hotels .hotelimg{
+   width: 100%;
+   height: 100%;
+}
+.Hotels .Description{
+   width: 100%;
+   height: 20PX;
+   color: gray;
+   font-family: var(--font1);
+   font-size: 17PX;
+   overflow: hidden;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   margin-top: 5PX;
+}
+.Hotels .Price{
+   width: 100%;
+   height: 30PX;
+   color: rgb(24, 24, 24);
+   font-family: var(--font1);
+   font-size: 25PX;
+   overflow: hidden;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   margin-top: 5PX;
+   font-weight: bold;
+}
+.Hotels .location{
+   width: 15PX;
+   height: 15PX;
+   margin-right: 5PX;
+}
+.Hotels .locationPlace{
+   color: var(--colorBleu2);
+   font-size: 14PX;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+}
+.Hotels .part{
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Hotels .PlaceButtonPagination{
+    width: 100%;
+    height: 50PX;
+    display: flex;
+    justify-content: center;
+    margin-top: 20PX;
+}
+.Hotels .PlaceButtonPaginationCenter{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Hotels .buttonChange{
+    width: 100PX;
+    height: 50PX;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10PX;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-family: var(--font1);
+}
+.Hotels .buttonChange:hover{
+    background-color: rgb(218, 218, 218);
+}
+.Hotels .Loading{
+    width: 100%;
+    height: 400PX;
+    color: gray;
+    font-family: var(--font1);
+    font-size: 30PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

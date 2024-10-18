@@ -1,0 +1,57 @@
+@import url('./librery.css');
+.AdminhotelPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.AdminhotelPage .leftList{
+    width: 250PX;
+    height: 100%;
+    background: url("../imgs/bghome.jpg");
+    padding-left: 10PX;
+}
+.AdminhotelPage .PageAdminChange{
+    flex: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.AdminhotelPage .LogoPlace{
+    flex: 1;
+    height: 70PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50PX;
+    border-bottom: 2PX solid white;
+    margin-right: 10PX;
+}
+.AdminhotelPage .logo_img{
+    width: 150PX;
+}
+.AdminhotelPage .itemList{
+    flex: 1;
+    height: 50PX;
+    margin-top: 10PX;
+    color: var(--colorTextBlack);
+    font-weight: bold;
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    padding-left: 20PX;
+    cursor: pointer;
+    border-radius: 50PX 0PX 0PX 50PX;
+    color: white;
+    font-size: 20PX;
+    text-decoration: none;
+}
+.AdminhotelPage .itemList:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.AdminhotelPage .contentDashboard{
+    flex: 1;
+    height: 100%;
+}

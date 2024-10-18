@@ -1,0 +1,156 @@
+.ShowresContainer{
+    flex: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.ShowresContainer .placeSearch{
+    flex: 1;
+    height: 60PX;
+    margin-top: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ShowresContainer .placeSearchCentre{
+    width: 70%;
+    height: 90%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5PX;
+    display: flex;
+    overflow: hidden;
+}
+.ShowresContainer .PlaceInp{
+    flex: 1;
+    height: 100%;
+    padding-left: 20PX;
+}
+.ShowresContainer .BtnSearch{
+    width: 60PX;
+    height: 100%;
+    cursor: pointer;
+    border-left:1PX solid rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.ShowresContainer .BtnSearch:hover{
+    background-color: rgb(221, 221, 221);
+}
+.ShowresContainer .PlaceInput{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: var(--font1);
+    font-size: 15PX;
+}
+.ShowresContainer .PlaceInput::placeholder{
+    color: rgb(207, 207, 207);
+}
+.ShowresContainer .titleTable{
+    flex: 1;
+    height: 60PX;
+    margin-top: 40PX;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5PX;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.ShowresContainer .itemTable{
+    flex: 1;
+    height: 60PX;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-bottom: 1PX solid gainsboro;
+    cursor: pointer;
+}
+.ShowresContainer .itemTable:hover{
+    background-color: rgb(250, 250, 250);
+}
+.ShowresContainer .titleTableItem{
+    width: 180PX;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font1);
+    color: var(--colorTextBlack);
+    font-weight: bold;
+    font-size: 17PX;
+}
+.ShowresContainer .itemTableItem{
+    width: 180PX;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font1);
+    color: var(--colorTextBlack);
+    font-size: 15PX;
+}
+.ShowresContainer .ButtonReserved{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(255, 59, 59);
+    border-radius: 5PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-size: 15PX;
+    font-weight: bold;
+    color: white;
+    cursor: no-drop;
+}
+.ShowresContainer .ButtonReservedExist{
+    background-color: rgb(100, 255, 134);
+    cursor: pointer;
+}
+.ShowresContainer .navigationPlace{
+    flex: 1;
+    height: 40PX;
+    margin-top: 30PX;
+    display: flex;
+    justify-content: center;
+}
+.ShowresContainer .btnMinos,.ShowresContainer .btnPlus{
+    width: 40PX;
+    height: 40PX;
+    background-color: #f0f0f0;
+    border-radius: 5PX;
+    cursor: pointer;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    user-select: none;
+}
+.ShowresContainer .dispNumberPage{
+    width: 100PX;
+    height: 40PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+    color: var(--colorTextBlack);
+    background-color: #f0f0f0;
+    border-radius: 5PX;
+    margin-left: 20PX;
+    margin-right: 20PX;
+    user-select: none;
+}
+.ShowresContainer .iconeSearch{
+    width: 20PX;
+    height: 20PX;
+}

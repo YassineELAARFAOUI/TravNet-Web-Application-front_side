@@ -1,0 +1,39 @@
+:root {
+    --bgAuth:#282A37;
+    --bgAuthLow:#282a37a1;
+
+    --colorWhite: #ffffff;
+    --colorBlack: #0e0e0e;
+    --colorBlackLowOpacity: #00000087;
+    --colorVide: #0e0e0e00;
+    --colorCorrect: #17e347;
+    --colorIncorrect: #ff3636;
+    --colorGray: #c9c9c9;
+    --colorGray2: #e0e0e0;
+    --colorGray3: #f9f9f9;
+    --colorGray4: #a3a3a3;
+    --colorGray5: #7c7c7c;
+    --colorTextBlack: #2D2D2D;
+    --colorBleu: #1a7ab3;
+    --colorBleu2:#1a7bb3ed;
+    --colorBleu3:#b3e3ff;
+    --colorBleu4:#69c8ff;
+    --coloryellow:#d6b51a;
+    --coloryellow2:#fff1b0;
+
+    
+
+
+     /* font-familys */
+     --font1:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+@keyframes rotation360 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+}

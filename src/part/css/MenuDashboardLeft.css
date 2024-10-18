@@ -1,0 +1,46 @@
+.menuLeft{
+    width: 250PX;
+    height: 100%;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    overflow: hidden;
+    background: linear-gradient(20deg,rgb(203, 173, 3),var(--colorBleu));
+}
+.menuLeft .TitleMenuLeft{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid black;
+    color: black;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+    margin-bottom: 30PX;
+    margin-top: 20PX;
+}
+.menuLeft .BtnMenuLeft{
+    width: 100%;
+    height: 55PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid var(--colorWhite);
+    color: var(--colorBleu);
+    font-family: var(--font1);
+    font-size: 30PX;
+    color: var(--colorWhite);
+    cursor: pointer;
+    margin-top: 5PX;
+    text-decoration: none;
+}
+.menuLeft .activeBtn{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+
+
+

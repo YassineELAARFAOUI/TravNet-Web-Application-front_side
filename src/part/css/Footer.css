@@ -1,0 +1,110 @@
+@import '../../component/css/librery.css';
+.footerContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--colorGray2);
+}
+.footerContainer .descriptionCompany{
+    flex: 1;
+    max-width: 300PX;
+    min-width: 300PX;
+    height: fit-content;
+    padding-left: 10PX;
+    padding-right: 10PX;
+    background-color: var(--colorWhite);
+}
+.footerContainer .ListItem{
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50PX;
+}
+.footerContainer .ListItemBox{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 20PX;
+    margin-right: 20PX;
+}
+.footerContainer .logo{
+    height: 80PX;
+}
+.footerContainer .descriptionText{
+    flex: 1;
+    height: fit-content;
+}
+.footerContainer .descriptionText{
+    flex: 1;
+    height: fit-content;
+    font-family: var(--font1);
+    font-size: 15PX;
+    color: var(--colorTextBlack);
+}
+.footerContainer .copyrightPlace{
+    width: 100%;
+    height: 30PX;
+    margin-top: 10PX;
+    margin-bottom: 30PX;
+    font-family: var(--font1);
+    font-size: 15PX;
+    color: var(--colorTextBlack);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.footerContainer .title{
+    width: 100%;
+    height: 40PX;
+    font-family: var(--font1);
+    font-size: 20PX;
+    color: var(--colorTextBlack);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.footerContainer .itemTitle{
+    width: 100%;
+    height: 30PX;
+    font-family: var(--font1);
+    font-size: 17PX;
+    color: var(--colorTextBlack);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.footerContainer .itemTitle:hover{
+    color: #c8c128;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .footerContainer{
+        display: block;
+    }
+    .footerContainer .descriptionCompany{
+        background-color: #ff000000;
+        padding-top: 30PX;
+    }
+    .footerContainer .descriptionText{
+        width: 50%;
+        max-width: 400PX;
+        min-width: 300PX;
+    }
+    .footerContainer .ListItem{
+        flex: 1;
+        display: block;
+        border-top: 1PX solid gray;
+        padding-bottom: 100PX;
+    }
+    .footerContainer .ListItemBox{
+        margin-top: 20PX;
+    }
+}

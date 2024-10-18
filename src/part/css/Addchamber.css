@@ -1,0 +1,122 @@
+.AddchamberContainer{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.AddchamberContainer .titleFromAddChamber{
+    flex: 1;
+    height: 60PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20PX;
+}
+.AddchamberContainer .titleFromAddChamberCenter{
+    width: 90%;
+    height: 50PX;
+    background-color: rgb(220, 220, 220);
+    padding-left: 30PX;
+    padding-right: 30PX;
+    display: flex;
+    align-items: center;
+    font-size: 25PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    border-radius: 4PX;
+}
+.AddchamberContainer .formAddchamber{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 30PX;
+}
+.AddchamberContainer .formAddchamberCenter{
+    width: 90%;
+    height: fit-content;
+    padding-left: 30PX;
+    padding-right: 30PX;
+
+}
+.AddchamberContainer .placeInputAndText{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5PX;
+}
+.AddchamberContainer .placeInputAndTextItem{
+    width: 49%;
+    height: 80PX;
+}
+.AddchamberContainer .placeInputAndTextItemDesc{
+    width: 100%;
+    height: fit-content;
+}
+.AddchamberContainer .TitleInp{
+    flex: 1;
+    height: 25PX;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+}
+.AddchamberContainer .BoxInp{
+    flex: 1;
+    height: fit-content;
+    padding-left: 10PX;
+    padding-right: 10PX;
+    border: 1PX solid black;
+    background-color: white;
+}
+.AddchamberContainer .inp{
+    width: 100%;
+    height: 55PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: var(--font1);
+    font-size: 14PX;
+}
+.AddchamberContainer .inpDesc{
+    width: 100%;
+    height: 200PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: var(--font1);
+    font-size: 14PX;
+    padding-top: 10PX;
+    resize: none;
+}
+.AddchamberContainer .selectInp{
+    width: 100%;
+    height: 55PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: var(--font1);
+    font-size: 14PX;
+}
+.AddchamberContainer .btnAddChamber{
+    width: 100%;
+    height: 60PX;
+    background-color: var(--colorBleu);
+    cursor: pointer;
+    font-size: 20PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddchamberContainer .btnAddChamber:hover{
+    background-color: var(--colorBleu2);
+}
+.AddchamberContainer .spaceEnd{
+    margin-bottom: 50PX;
+    margin-top: 10PX;
+}

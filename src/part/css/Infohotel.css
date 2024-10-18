@@ -1,0 +1,154 @@
+.InfohotelContainer{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.InfohotelContainer .ItemInfoHotel{
+    width: 100%;
+    height: fit-content;
+}
+.InfohotelContainer .titleBig{
+    flex: 1;
+    height: 50PX;
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 23PX;
+    background-color: var();
+    margin-bottom: 30PX;
+    margin-top: 30PX;
+    margin-left: 20PX;
+    margin-right: 20PX;
+    background-color: var(--colorGray2);
+    border-radius: 5PX;
+    padding-left: 10PX;
+}
+.InfohotelContainer .infoHotelPlace{
+    flex: 1;
+    height: fit-content;
+    margin-left: 20PX;
+    display: flex;
+}
+.InfohotelContainer .infoHotelPlaceItemleft{
+    width: 200PX;
+    height: fit-content;
+}
+.InfohotelContainer .infoHotelPlaceItemRight{
+    flex: 1;
+    height: fit-content;
+}
+.InfohotelContainer .BoxImg{
+    width: 150PX;
+    height: 150PX;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.InfohotelContainer .infoHotelPlaceItemRightPlaceInp{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.InfohotelContainer .infoHotelPlaceItemRightPlaceInpElem{
+    width: 49%;
+    height: fit-content;
+}
+.InfohotelContainer .titleInp{
+    flex: 1;
+    height: 25PX;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    font-size: 14PX;
+    font-weight: bold;
+}
+.InfohotelContainer .ZoneInp{
+    flex: 1;
+    height: 55PX;
+    background-color: var(--colorWhite);
+    margin-top: 2PX;
+    border: 1PX solid var(--colorBlack);
+    padding-left: 10PX;
+}
+.InfohotelContainer .inp{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    font-family: var(--font1);
+    font-size: 14PX;
+}
+.InfohotelContainer .rateSelect{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    font-family: var(--font1);
+    font-size: 14PX;
+    cursor: pointer;
+}
+.InfohotelContainer .descriptionPlace{
+    flex: 1;
+    height: fit-content;
+    margin-top: 10PX;
+    background-color: var(--colorWhite);
+    border: 1PX solid var(--colorBlack);
+    padding: 10PX;
+    margin-top: 0PX;
+}
+.InfohotelContainer .placeOfDescrib{
+    display: block;
+}
+.InfohotelContainer .descriptionInp{
+    width: 100%;
+    height: 100PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    resize: none;
+}
+.InfohotelContainer .BtnAnnulation{
+    width: 49%;
+    height: 55PX;
+    background-color: var(--colorGray2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 17PX;
+    color: var(--colorBlack);
+}
+.InfohotelContainer .BtnSauvgarde{
+    width: 49%;
+    height: 55PX;
+    background-color: var(--colorBleu);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 17PX;
+    color: var(--colorWhite);
+}
+.InfohotelContainer .BtnSauvgarde:hover{
+    background-color: var(--colorBleu2);
+}
+.InfohotelContainer .BtnAnnulation:hover{
+    background-color: var(--colorGray4);
+}
+.InfohotelContainer .marginclass{
+    margin-top: 10PX;
+    margin-bottom: 50PX;
+}
+.InfohotelContainer .imageAccount{
+    width: 100%;
+    height: 100%;
+}

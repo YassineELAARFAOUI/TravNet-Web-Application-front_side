@@ -1,0 +1,136 @@
+.HotelUnite{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 30PX;
+}
+.HotelUnite .HotelUniteCenter{
+    width: 100%;
+    max-width: 1200PX;
+    height: fit-content;
+}
+.HotelUnite .infoHotel{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.HotelUnite .ImageHotell{
+    width: 40%;
+    height: fit-content;
+}
+.HotelUnite .PlaceImageHotell{
+    width: 100%;
+    max-width: 450PX;
+    height: 270PX;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10PX;
+    overflow: hidden;
+    margin-top: 20PX;
+}
+.HotelUnite .imgHotel{
+    width: 100%;
+    height: 100%;
+}
+.HotelUnite .part2{
+    margin-left: 20PX;
+}
+.HotelUnite .NameOfHotel{
+    width: 100%;
+    height: 60PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+    color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+}
+.HotelUnite .DescriptionOfHotel{
+    width: 100%;
+    height: fit-content;
+    font-family: var(--font1);
+    font-size: 17PX;
+    color: rgb(66, 66, 66);
+}
+.HotelUnite .ElemOfHotel{
+    width: 100%;
+    height: 40PX;
+    font-family: var(--font1);
+    font-size: 17PX;
+    color: rgb(66, 66, 66);
+    margin-top: 30PX;
+    display: flex;
+    align-items: center;
+}
+.HotelUnite .IconeElem{
+    width: 40PX;
+    height: 40PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HotelUnite .textElem{
+    flex: 1;
+    height: 25PX;
+    font-family: var(--font1);
+    font-size: 15PX;
+    color: var(--colorBleu2);
+    display: flex;
+    align-items: center;
+    padding-left: 10PX;
+    border-left: 3PX solid var(--colorBleu2);
+    font-weight: bold;
+}
+.HotelUnite .IconeImgElm{
+    width: 20PX;
+    height: 20PX;
+}
+.HotelUnite .spaceTop{
+    margin-top: 0PX;
+}
+.HotelUnite .PlaceBtnReserver{
+    width: 100%;
+    height: 60PX;
+    margin-top: 50PX;
+}
+.HotelUnite .BtnReserve{
+    width: 250PX;
+    height: 55PX;
+    background-color: var(--colorBleu2);
+    border-radius: 8PX;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    color: white;
+    font-size: 20PX;
+}
+.HotelUnite .BtnReserve:hover{
+    background-color: var(--colorBleu);
+}
+.HotelUnite .partMoreHotels{
+    width: 100%;
+    height: fit-content;
+    margin-top: 100PX;
+    margin-bottom: 50PX;
+}
+.HotelUnite .partMoreHotelsMenu{
+    flex: 1;
+    height: 60PX;
+    background-color: rgb(24, 24, 24);
+    font-family: var(--font1);
+    color: white;
+    font-size: 20PX;
+    display: flex;
+    align-items: center;
+    padding-left: 30PX;
+    font-weight: bold;
+}
+.HotelUnite .HotesList{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30PX;
+    display: flex;
+    flex-wrap: wrap;
+}

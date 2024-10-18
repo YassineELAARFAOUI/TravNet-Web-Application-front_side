@@ -1,0 +1,362 @@
+.DashboardProfildPage{
+    width: 100%;
+    height: 100lvh;
+    user-select: none;
+}
+.DashboardProfildPage .MenuDashboard{
+    flex: 1;
+    height: 70PX;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.DashboardProfildPage .logo{
+    height: 40PX;
+}
+.DashboardProfildPage .BtnLogout{
+    width: 170PX;
+    height: 45PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 22PX;
+    color: var(--colorBleu);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorBleu2);
+    color: var(--colorWhite);
+    border-radius: 5PX;
+}
+.DashboardProfildPage .BtnLogout:hover{
+    background-color: var(--colorBleu);
+    color: var(--colorWhite);
+}
+.DashboardProfildPage .pageDashbord{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+.DashboardProfildPage .menuLeft{
+    width: 250PX;
+    height: 100%;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    overflow: hidden;
+}
+.DashboardProfildPage .TitleMenuLeft{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid black;
+    color: black;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+    margin-bottom: 30PX;
+    margin-top: 20PX;
+}
+.DashboardProfildPage .BtnMenuLeft{
+    width: 100%;
+    height: 55PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid var(--colorWhite);
+    color: var(--colorBleu);
+    font-family: var(--font1);
+    font-size: 30PX;
+    color: var(--colorWhite);
+    cursor: pointer;
+    margin-top: 5PX;
+    text-decoration: none;
+}
+.DashboardProfildPage .BtnMenuLeft:hover{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+.DashboardProfildPage .rightpage{
+    flex: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+}
+.DashboardProfildPage .activeBtn{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+
+
+/* -------------------------- */
+
+.DashboardProfildPage .Allroom{
+    width: 100%;
+    height: 100vh;
+}
+.Allroom .MenuRoom{
+    width: 100%;
+    height: 60PX;
+    background-color: var(--colorBleu);
+    display: flex;
+    justify-content: space-between;
+}
+.Allroom .blocMenu{
+    width: 180PX;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+}
+.Allroom .blocMenuLeft{
+    margin-left: 10PX;
+    font-size: 30PX;
+    color: var(--colorWhite);
+}
+.Allroom .blocMenuRight{
+    justify-content: center;
+    width: 200PX;
+}
+.Allroom .btnAddRoom{
+    width: 180PX;
+    height: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5PX;
+    background-color: var(--colorBleu2);
+    border: 1PX solid var(--colorWhite);
+    color: var(--colorWhite);
+    text-decoration: none;
+}
+.Allroom .btnAddRoom:hover{
+    background-color: var(--colorBleu3);
+}
+.Allroom .tableRoom{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 20PX;
+}
+.Allroom .tableRoomCentre{
+    width: 90%;
+    height: fit-content;
+}
+.Allroom .thdiv{
+    width: 100%;
+    height: 60PX;
+    background-color: var(--coloryellow);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2PX var(--colorGray2) solid;
+}
+.Allroom .trdiv{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1PX var(--colorGray2) solid;
+    cursor: pointer;
+}
+.Allroom .trdiv:hover{
+    background-color: var(--colorGray3);
+}
+.Allroom .listTrdiv{
+    width: 100%;
+    height: fit-content;
+}
+.Allroom .thitemdiv{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 18PX;
+    color: var(--colorWhite);
+}
+.Allroom .tritemdiv{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-size: 16PX;
+}
+.Allroom .pagenationPlace{
+    width: 100%;
+    height: 40PX;
+    margin-top: 20PX;
+    display: flex;
+    justify-content: center;
+}
+.Allroom .pagenationPlaceCentre{
+    width: 150PX;
+    height: 100%;
+    display: flex;
+}
+.Allroom .BtnPagenation{
+    width: 40PX;
+    height: 40PX;
+    background-color: rgb(235, 235, 235);
+    font-family: var(--font1);
+    font-size: 25PX;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+}
+.Allroom .BtnPagenation:hover{
+    background-color: rgb(208, 208, 208);
+}
+.Allroom .numberpagenation{
+    width: 70PX;
+    height: 40PX;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-size: 23PX;
+}
+.Allroom .noDiv{
+    width: 70PX;
+    height:25PX;
+    background-color: var(--colorIncorrect);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorWhite);
+}
+.Allroom .yesDiv{
+    width: 70PX;
+    height: 25PX;
+    background-color: var(--colorCorrect);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorWhite);
+}
+.Allroom .roomnexist{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+    color: var(--colorGray2);
+}
+.Allroom .placeInpDate{
+    width: 100%;
+    height: 50PX;
+    margin-top: -10PX;
+    margin-bottom: 10PX;
+    display: flex;
+    justify-content: end;
+}
+.Allroom .dateInp{
+    width: 300PX;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    border: 1PX solid gainsboro;
+}
+.Allroom .BtnSearch{
+    width: 100PX;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: var(--colorBleu2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-size: 16PX;
+    font-weight: bold;
+    margin-left: 10PX;
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+.Allroom .BtnSearch:hover{
+    background-color: var(--colorBleu);
+}
+.Allroom .divTitle{
+    width: 50%;
+}
+.Allroom .tableRoomCentre{
+    width: 100%;
+    height: fit-content;
+    max-width: 800PX;
+}
+.Allroom .tableRoomR{
+    display: flex;
+    justify-content: center;
+    margin-top: 40PX;
+}
+.Allroom .PlaceInpR{
+    flex: 1;
+    height: 60PX;
+    background-color: rgb(255, 255, 255);
+    border: 1PX solid gray;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    margin-top: 10PX;
+}
+.Allroom .InpR{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 17PX;
+    font-family: var(--font1);
+}
+.Allroom .PlaceInpRD{
+    height: 200PX;
+    padding-top: 20PX;
+    font-size: 17PX;
+    font-family: var(--font1);
+}
+.Allroom .InpRD{
+    resize: none;
+}
+.Allroom .btnR{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    color: white;
+    font-size: 20PX;
+    font-family: var(--font1);
+}
+.Allroom .palcebtnR{
+    background-color: var(--colorBleu2);
+    cursor: pointer;
+}
+.Allroom .palcebtnR:hover{
+    background-color: var(--colorBleu);
+}

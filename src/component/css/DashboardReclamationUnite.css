@@ -1,0 +1,184 @@
+.DashboardProfildPage{
+    width: 100%;
+    height: 100lvh;
+    user-select: none;
+}
+.DashboardProfildPage .MenuDashboard{
+    flex: 1;
+    height: 70PX;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.DashboardProfildPage .logo{
+    height: 40PX;
+}
+.DashboardProfildPage .BtnLogout{
+    width: 170PX;
+    height: 45PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 22PX;
+    color: var(--colorBleu);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorBleu2);
+    color: var(--colorWhite);
+    border-radius: 5PX;
+}
+.DashboardProfildPage .BtnLogout:hover{
+    background-color: var(--colorBleu);
+    color: var(--colorWhite);
+}
+.DashboardProfildPage .pageDashbord{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+.DashboardProfildPage .menuLeft{
+    width: 250PX;
+    height: 100%;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    overflow: hidden;
+}
+.DashboardProfildPage .TitleMenuLeft{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid black;
+    color: black;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+    margin-bottom: 30PX;
+    margin-top: 20PX;
+}
+.DashboardProfildPage .BtnMenuLeft{
+    width: 100%;
+    height: 55PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid var(--colorWhite);
+    color: var(--colorBleu);
+    font-family: var(--font1);
+    font-size: 30PX;
+    color: var(--colorWhite);
+    cursor: pointer;
+    margin-top: 5PX;
+    text-decoration: none;
+}
+.DashboardProfildPage .BtnMenuLeft:hover{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+.DashboardProfildPage .rightpage{
+    flex: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+}
+.DashboardProfildPage .activeBtn{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+
+
+/* -------------------------- */
+
+.DashboardProfildPage .Allroom{
+    width: 100%;
+    height: 100vh;
+}
+.Allroom .MenuRoom{
+    width: 100%;
+    height: 60PX;
+    background-color: var(--colorBleu);
+    display: flex;
+    justify-content: space-between;
+}
+.Allroom .blocMenu{
+    width: 300PX;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+}
+.Allroom .blocMenuLeft{
+    margin-left: 10PX;
+    font-size: 30PX;
+    color: var(--colorWhite);
+}
+.Allroom .blocMenuRight{
+    justify-content: center;
+    width: 200PX;
+}
+.Allroom .btnAddRoom{
+    width: 180PX;
+    height: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5PX;
+    background-color: var(--colorBleu2);
+    border: 1PX solid var(--colorWhite);
+    color: var(--colorWhite);
+    text-decoration: none;
+}
+.Allroom .btnAddRoom:hover{
+    background-color: var(--colorBleu3);
+}
+.Allroom .InfoOfClaim{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10PX;
+}
+.Allroom .InfoOfClaim1{
+    padding-top: 50PX;
+}
+.Allroom .elemClaim{
+    flex: 1;
+    height: 50PX;
+    padding-left: 30PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.Allroom .infoData{
+    color: black;
+    margin-left: 10PX;
+}
+.Allroom .placedispclaim{
+    flex: 1;
+    height: fit-content;
+    padding-bottom: 100PX;
+}
+.Allroom .infoDataDesc{
+    flex: 1;
+    height: fit-content;
+    color: black;
+    margin-left: 10PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 17PX;
+    padding-left: 20PX;
+    margin-right: 300PX;
+}

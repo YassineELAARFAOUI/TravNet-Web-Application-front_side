@@ -1,0 +1,267 @@
+@import url('./librery.css');
+.login{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgAuth);
+    display: flex;
+}
+.login .placeFormAndTitles{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.login .placeDesing{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.login .boxPlaceDesing{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+    overflow: hidden;
+}
+.login .divDegrader{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg,var(--bgAuth),var(--bgAuthLow));
+}
+.login .designImg{
+    height: 100%;
+}
+.boxPlaceDesing .divDegrader{
+    top: 0;
+}
+.login .LoginBox, .login .RegistreBox{
+    width: 600PX;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.5s ease;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+.login .LoginBox::-webkit-scrollbar, .login .RegistreBox::-webkit-scrollbar {
+    display: none;
+}
+.placeFormAndTitles .RegistreBox,.placeFormAndTitles .LoginBox{
+    top: 0PX;
+}
+.login .pageRegistre{
+    width: 80%;
+    height: 100%;
+}
+.login .menuRegistre{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    align-items: center;
+    margin-top: 30PX;
+}
+.login .returnBtnRegistre{
+    width: 40PX;
+    height: 40PX;
+    border-radius: 10PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #31333F;
+    cursor: pointer;
+}
+.login .returnImg{
+    width: 20PX;
+    height: 20PX;
+}
+.login .nameOfApp{
+    font-size: 25PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 20PX;
+}
+.login .titleRegistre{
+    width: 100%;
+    height: fit-content;
+    margin-top: 40PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 35PX;
+    margin-bottom: 30PX;
+
+}
+.login .placeInput{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5PX;
+    max-width: 400PX;
+    min-width: 300PX;
+}
+.login .titleInp{
+    flex: 1;
+    height: fit-content;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 13PX;
+    margin-bottom: 5PX;
+    padding-left: 3PX;
+}
+.login .input{
+    flex: 1;
+    height: 45PX;
+    background-color: #151923;
+    border-radius: 12PX;
+    display: flex;
+    overflow: hidden;
+}
+.login .inp{
+    flex: 1;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0PX;
+    background-color: #15192300;
+    margin-left: 15PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14PX;
+    font-weight: bold;
+}
+.inp::-ms-reveal,
+.inp::-ms-clear {
+    display: none;
+}
+.login .btnRegistreForm{
+    width: 200PX;
+    height: 40PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    border-radius: 12PX;
+    margin-top: 15PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15PX;
+    font-weight: bold;
+    background-color: #1D90F4;
+    cursor: pointer;
+}
+.login .loginBtnImageForm{
+    width: 15PX;
+    height: 15PX;
+    transform: rotate(180deg);
+    margin-left: 10PX;
+}
+.login .placequastionRegistre{
+    width: 100%;
+    height: 30PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13PX;
+}
+.login .linkLogin{
+    color: #1D90F4;
+    font-weight: bold;
+    margin-left: 8PX;
+    cursor: pointer;
+}
+.login .titleMargin{
+    margin-bottom: 80PX;
+}
+.login .placeIconeInp{
+    width: 45PX;
+    height: 45PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .placeIconeInpImg{
+    width: 20PX;
+    opacity: 0.6;
+}
+.login .BtnPassword{
+    cursor: pointer;
+}
+.login .MessagePlace{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--colorIncorrect);
+    border-radius: 5PX;
+    padding-top: 6PX;
+    padding-bottom: 6PX;
+    display: flex;
+    align-items: center;
+    max-width: 400PX;
+    min-width: 300PX;
+    display: none;
+}
+.login .TextMessage{
+    margin-left: 10PX;
+    color: var(--colorWhite);
+    font-family: var(--font1);
+}
+.login .loadImg{
+    width: 25PX;
+    height: 25PX;
+    animation: rotation360 0.5s linear infinite;
+
+}
+.login .inputPlace{
+    flex: 1;
+    height: 45PX;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    max-width: 300PX;
+}
+.login .inpvalide{
+    width: 300PX;
+    height: 45PX;
+    border-radius: 15PX;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    background-color: #151923;
+    color: var(--colorWhite);
+    font-size: 30PX;
+    text-align: center;
+}
+.login .placequastionValide{
+    width: 100%;
+    height: 30PX;
+    display: flex;
+    align-items: center;
+    margin-top: 30PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13PX;
+}
+@media (max-width: 771PX) {
+    .login .placeFormAndTitles{
+        width: 100%;
+    }
+    .login .placeDesing{
+        display: none;
+    }
+    .login .pageRegistre{
+        width: 95%;
+    }
+    .login .LoginBox, .login .RegistreBox{
+        width: 90%;
+        margin-left: 5%;
+    }
+}

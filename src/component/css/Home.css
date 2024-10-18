@@ -1,0 +1,398 @@
+@import url('./librery.css');
+.Home{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.Home .HomeCenter{
+    width: 100%;
+    height: fit-content;
+    max-width: 1500PX;
+    min-width: 300PX;
+    position: relative;
+    overflow: hidden;
+}
+.Home .Box{
+    flex: 1;
+    margin: 5PX;
+    height: 550PX;
+    background-color: #d3d3d3;
+    border-radius: 5PX;
+    overflow: hidden;
+    position: relative;
+}
+.Home .bghomeImg{
+    width: 1500PX;
+    position: absolute;
+}
+.Box .bghomeImg{
+   bottom: 0PX;
+   left: 0PX;
+}
+.Home .Menu{
+   width: 100%;
+   height: 60PX;
+   position: absolute;
+   background: linear-gradient(180deg,#000000c7,#00000000);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.Box .Menu{
+    top: 0PX;
+    left: 0PX;
+}
+.Home .logo{
+    height: 70%;
+    margin-left: 10PX;
+}
+.Home .listMenu{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+.Home .listMenuItem{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20PX;
+    cursor: pointer;
+    text-decoration: none;
+}
+.Home .listMenuItem:hover{
+    border-bottom: 2PX solid white;
+}
+.Home .signInBtn{
+    width: 160PX;
+    height: 75%;
+    background-color: white;
+    border-radius: 7PX;
+    margin-right: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Home .signInBtn:hover{
+    background-color: rgb(233, 233, 233);
+}
+.Home .form{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box .form{
+    bottom: 20PX;
+    left: 0PX;
+}
+.Home .formCentre{
+    width: 97%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 8PX;
+    overflow: hidden;
+}
+.Home .inpPlaceBox{
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    padding: 10PX 10PX 0PX 10PX;
+}
+.Home .inpPlace{
+    width: 32%;
+    height: fit-content;
+}
+.Home .NameInput{
+    width: 100%;
+    height: 30PX;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.Home .boxInp{
+    width: 100%;
+    height: 45PX;
+    background-color: rgb(239, 239, 239);
+    border-radius: 4PX;
+    overflow: hidden;
+    display: flex;
+}
+.Home .placeIconeInp{
+    height: 45PX;
+    width: 45PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home .IconeImgInp{
+    width: 20PX;
+}
+.Home .inpForm{
+    flex: 1;
+    height: 100%;
+}
+.Home .inputForm{
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.Home .filtreAndBtn{
+    flex: 1;
+    height: fit-content;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.Home .filterPlace{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.Home .ButtonSearch{
+    width: 160PX;
+    height: 50PX;
+    background-color: black;
+    border-radius: 6PX;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home .wordFilter{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20PX;
+    font-size: 20PX;
+}
+.Home .BtnFilter{
+    height: 35PX;
+    width: fit-content;
+    border: 1PX solid black;
+    border-radius: 50PX;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 10PX;
+}
+.Home .BtnFilter:hover{
+    background-color: black;
+    color: white;
+}
+.Home .SearchText{
+   width: fit-content;
+   height: fit-content;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   color: white;
+}
+.Home .IconSearch{
+    width: 20PX;
+    height: 20PX;
+    margin-left: 10PX;
+}
+.Home .IconSearchImg{
+    width: 100%;
+    height: 100%;
+}
+.Home .buttonOpenMenuMobile{
+    width: 50PX;
+    height: 50PX;
+    margin-right: 10PX;
+    display: none;
+    border-radius: 5PX;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Home .iconMenu{
+    height: 70%;
+}
+.Home .MenuMobileList{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--colorBlackLowOpacity);
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    transform: translateX(100px);
+    transition: transform 1s ease;
+}
+.HomeCenter .MenuMobileList{
+    top: 0PX;
+    left: 0PX;
+}
+.Home .MenuMobileListCentre{
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    max-width: 800PX;
+    min-width: 300PX;
+}
+.Home .ButtonCloseMenuPlace{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    align-items: center;
+}
+.Home .ButtonCloseMenu{
+    width: 45PX;
+    height: 45PX;
+    border-radius: 5PX;
+    background-color: var(--colorBlack);
+    margin-left: 10PX;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home .closeBtnIcon{
+    width: 30PX;
+    height: 30PX;
+}
+.Home .gigTitle{
+    flex: 1;
+    height: fit-content;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 25PX;
+    padding-left: 5PX;
+    margin-top: 20PX;
+}
+.Home .smollTitle{
+    flex: 1;
+    height: fit-content;
+    font-family: var(--font1);
+    font-size: 17PX;
+    margin-top: 10PX;
+    color: var(--colorGray);
+    padding-left: 5PX;
+}
+.Home .offrePlace{
+    width: 100%;
+    height: 250PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+}
+.Home .offrePlaceItem{
+    width: 45%;
+    height: 250PX;
+    max-width: 600PX;
+    min-width: 300PX;
+    background-color: rgb(190, 190, 190);
+    border-radius: 20PX;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Home .offrePlaceItem:hover{
+    transform: scale(1.02);
+    box-shadow: 1PX 1PX 10PX #00000094;
+}
+.Home .imagedes{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 1018PX) {
+    .Home .bghomeImg{
+        width: 1018PX;
+    }
+    .Home .signInBtn{
+        display: none;
+    }
+    .Home .listMenu{
+        display: none;
+    }
+    .Home .buttonOpenMenuMobile{
+        display: flex;
+    }
+}
+@media (max-width: 700PX) {
+    .Home .inpPlaceBox{
+        display: block;
+    }
+    .Home .inpPlace{
+        width: 100%;
+    }
+    .Home .filtreAndBtn{
+        display: block;
+    }
+    .Home .ButtonSearch{
+        margin-top: 10PX;
+    }
+    .Home .wordFilter{
+        font-size: 16PX;
+    }
+    .Home .BtnFilter{
+        height: 30PX;
+        font-family: 13PX;
+        margin-top: 10PX;
+    }
+    .Home .filterPlace{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 650PX) {
+    .Home .offrePlace{
+        height: fit-content;
+        display: block;
+    }
+    .Home .offrePlaceItem{
+        width: 100%;
+        height: 250PX;
+        max-width: none;
+        min-width: none;
+        background-color: rgb(190, 190, 190);
+        border-radius: 20PX;
+        overflow: hidden;
+        margin-top: 20PX;
+    }
+}
+@media (max-width: 600PX) {
+    .Home .bghomeImg{
+        width: fit-content;
+        height: 100%;
+    }
+}

@@ -1,0 +1,115 @@
+.LoginuserPage{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    overflow: hidden;
+}
+.LoginuserPage .image{
+    width: 50%;
+    height: 100%;
+}
+.LoginuserPage .formPlace{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.LoginuserPage .formRegisterScroll{
+    overflow-y: scroll;
+    align-items: start;
+}
+.LoginuserPage .bgLoginUser{
+    height: 100%;
+}
+.LoginuserPage .logo{
+    width: 100%;
+    height: 70PX;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30PX;
+}
+.LoginuserPage .formPlaceCenter{
+    width: fit-content;
+    height: fit-content;
+}
+.LoginuserPage .logoimg{
+    height: 100%;
+}
+.LoginuserPage .inpPlace{
+    width: 100%;
+    height: 80PX;
+}
+.LoginuserPage .BtnPlace,.LoginuserPage .BtnPlaceHotel{
+    width: 100%;
+    height: 55PX;
+    margin-top: 20PX;
+}
+.LoginuserPage .BtnLogin{
+    width: 100%;
+    height: 100%;
+    background-color: #1a7ab3;
+    font-family: var(--font1);
+    font-size: 17PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.LoginuserPage .BtnLoginHotels{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 1PX solid #1a7ab3;
+    color: #1a7ab3;
+    font-family: var(--font1);
+    font-size: 17PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.LoginuserPage .BtnPlaceHotel{
+    margin-top: 10PX;
+}
+.LoginuserPage .inpPlaceText{
+    width: 100%;
+    height: 25PX;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+}
+.LoginuserPage .inpPlaceInput{
+    width: 400PX;
+    height: 55PX;
+    background-color: #ffffff;
+    border: 1PX solid black;
+    padding-left: 15PX;
+    padding-right: 15PX;
+}
+.LoginuserPage .inp{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+}
+.LoginuserPage .LinkToRegister{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+}
+.LoginuserPage .questionText{
+    font-family: var(--font1);
+    cursor: pointer;
+}
+.LoginuserPage .linkText{
+    font-family: var(--font1);
+    margin-left: 5PX;
+    cursor: pointer;
+    color: #d6b51a;
+}

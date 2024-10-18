@@ -1,0 +1,41 @@
+@import url('../../component/css/librery.css');
+.Menu{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorBleu2);
+    margin-bottom: 20PX;
+}
+.Menu .div_menu_centred{
+    width: 98%;
+    height: 100%;
+    display: flex;
+}
+.Menu .div_global_logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.Menu .div_logo_unitaire{
+    width: fit-content;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.Menu .div_global_help{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-right: 20px;
+    font-family: var(--font1);
+    color: var(--colorWhite);
+    cursor: pointer;
+}
+.Menu .logo{
+    height: 100%;
+}

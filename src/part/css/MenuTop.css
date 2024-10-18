@@ -1,0 +1,32 @@
+.MenuDashboard{
+    flex: 1;
+    height: 70PX;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.MenuDashboard .logo{
+    height: 40PX;
+}
+.MenuDashboard .BtnLogout{
+    width: 170PX;
+    height: 45PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 22PX;
+    color: var(--colorBleu);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorBleu2);
+    color: var(--colorWhite);
+    border-radius: 5PX;
+}
+.MenuDashboard .BtnLogout:hover{
+    background-color: var(--colorBleu);
+    color: var(--colorWhite);
+}

@@ -1,0 +1,288 @@
+.DashboardProfildPage{
+    width: 100%;
+    height: 100lvh;
+    user-select: none;
+}
+.DashboardProfildPage .MenuDashboard{
+    flex: 1;
+    height: 70PX;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.DashboardProfildPage .logo{
+    height: 40PX;
+}
+.DashboardProfildPage .BtnLogout{
+    width: 170PX;
+    height: 45PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 22PX;
+    color: var(--colorBleu);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorBleu2);
+    color: var(--colorWhite);
+    border-radius: 5PX;
+}
+.DashboardProfildPage .BtnLogout:hover{
+    background-color: var(--colorBleu);
+    color: var(--colorWhite);
+}
+.DashboardProfildPage .pageDashbord{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+}
+.DashboardProfildPage .menuLeft{
+    width: 250PX;
+    height: 100%;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    overflow: hidden;
+}
+.DashboardProfildPage .TitleMenuLeft{
+    width: 100%;
+    height: 60PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid black;
+    color: black;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+    margin-bottom: 30PX;
+    margin-top: 20PX;
+}
+.DashboardProfildPage .BtnMenuLeft{
+    width: 100%;
+    height: 55PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3PX solid var(--colorWhite);
+    color: var(--colorBleu);
+    font-family: var(--font1);
+    font-size: 30PX;
+    color: var(--colorWhite);
+    cursor: pointer;
+    margin-top: 5PX;
+    text-decoration: none;
+}
+.DashboardProfildPage .BtnMenuLeft:hover{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+.DashboardProfildPage .rightpage{
+    flex: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+}
+.DashboardProfildPage .activeBtn{
+    background-color: var(--colorBleu);
+    color: white;
+    border-radius: 5PX;
+    border-bottom: none;
+}
+
+
+/* -------------------------- */
+
+.DashboardProfildPage .couverimg{
+    flex: 1;
+    height: 170PX;
+    background-color: #ededed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.DashboardProfildPage .imgAccount{
+    width: 250PX;
+    height: 150PX;
+    background-color: #ededed;
+    position: absolute;
+    border-radius: 20PX;
+    border: 10PX solid white;
+    overflow: hidden;
+}
+.couverimg .imgAccount{
+    bottom: -70PX;
+}
+.DashboardProfildPage .nameAccount{
+    flex: 1;
+    height: 50PX;
+    margin-top: 70PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+}
+.DashboardProfildPage .descriptionPlace{
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DashboardProfildPage .descriptionPlaceCenter{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500PX;
+    font-family: var(--font1);
+    font-size: 17PX;
+    color: var(--colorGray5);
+}
+.DashboardProfildPage .Price{
+    flex: 1;
+    height: 50PX;
+    padding-left: 30PX;
+    display: flex;
+    align-items: center;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 30PX;
+    margin-top: 20PX;
+}
+.DashboardProfildPage .stars{
+    display: flex;
+    margin-top: 0PX;
+    height: 30PX;
+}
+.DashboardProfildPage .star{
+    width: 22PX;
+    margin-right: 4PX;
+}
+.DashboardProfildPage .caractirestic{
+    flex: 1;
+    height: fit-content;
+    margin-top: 40PX;
+    padding-left: 30PX;
+}
+.DashboardProfildPage .caractiresticItem{
+    flex: 1;
+    height: 50PX;
+    display: flex;
+    align-items: center;
+}
+.DashboardProfildPage .iconeCaract{
+    height: 30PX;
+}
+.DashboardProfildPage .TextCaractirestic{
+    font-family: var(--font1);
+    font-size: 22PX;
+    margin-left: 20PX;
+    color: #7C7C7C;
+    font-weight: bold;
+}
+.DashboardProfildPage .profilbg{
+    width: 100%;
+}
+.DashboardProfildPage .profilBusi{
+    width: 100%;
+    height: 100%;
+}
+.DashboardProfildPage .buttonModify{
+    width: fit-content;
+    height: 35PX;
+    background-color: var(--colorBleu3);
+    position: absolute;
+    border-radius: 5PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20PX;
+    padding-left: 20PX;
+    cursor: pointer;
+    text-decoration: none;
+}
+.DashboardProfildPage .buttonModify:hover{
+    background-color: var(--colorBleu4);
+}
+.couverimg .buttonModify{
+    bottom: -60PX;
+    right: 50PX;
+}
+.couverimg .modifyIcon{
+    width: 20PX;
+    height: 20PX;
+}
+.couverimg .modifyText{
+    margin-left: 15PX;
+    font-family: var(--font1);
+    color: var(--colorWhite);
+    font-weight: bold;
+    font-size: 17PX;
+}
+.DashboardProfildPage .infAccountblack{
+    color: var(--colorBlack);
+    margin-left: 10PX;
+}
+.DashboardProfildPage .marginBottomDiv{
+    padding-bottom: 50PX;
+}
+.DashboardProfildPage .PlaceModifyImg{
+    flex: 1;
+    height: 60PX;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: center;
+}
+.DashboardProfildPage .PlaceModifyImgCenter{
+    width: 100%;
+    max-width: 700Px;
+    height: 100%;
+    display: flex;
+}
+.DashboardProfildPage .inpFileImage{
+    flex: 1;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1PX solid gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20PX;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 20PX;
+    color: var(--colorBleu2);
+}
+.DashboardProfildPage .btnFileImage{
+    width: 150PX;
+    height: 100%;
+    background-color: var(--colorBleu2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font1);
+    font-weight: bold;
+    color: white;
+}
+.DashboardProfildPage .btnFileImage:hover{
+    background-color: var(--colorBleu);
+}
+.DashboardProfildPage .inpFile{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+    cursor: pointer;
+    display: none;
+}

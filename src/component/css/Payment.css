@@ -1,0 +1,136 @@
+.pagePayment{
+    width: 100%;
+    height: fit-content;
+    max-width: 1200PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50PX;
+}
+.pagePayment .Panel{
+    width: 700PX;
+    height: fit-content;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10PX;
+    display: flex;
+    justify-content: center;
+}
+.pagePayment .PanelCenter{
+    width: 80%;
+    height: fit-content;
+    padding-top: 50PX;
+    padding-bottom: 50PX;
+}
+.pagePayment .PlaceInp{
+    flex: 1;
+    height: 55PX;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5PX;
+    border: 1PX solid rgb(197, 197, 197);
+    border-radius: 5PX;
+    overflow: hidden;
+    padding-left: 10PX;
+    padding-right: 10PX;
+}
+.pagePayment .PlaceTitreInp{
+    width: 100%;
+    height: fit-content;
+    font-family: var(--font1);
+    color: rgb(35, 35, 35);
+    margin-top: 10PX;
+}
+.pagePayment .inp{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+}
+.pagePayment .PlaceInpDate{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10PX;
+    display: flex;
+}
+.pagePayment .element{
+    width: 150PX;
+    height: fit-content;
+}
+.pagePayment .marginLeft{
+   margin-left: 10PX;
+}
+.pagePayment .PlaceTitreInp2{
+    width: 100%;
+    height: fit-content;
+    font-family: var(--font1);
+    color: rgb(35, 35, 35);
+    margin-bottom: 5PX;
+
+}
+.pagePayment .PlaceInp2{
+    flex: 1;
+    height: 50PX;
+    background-color: white;
+    border-radius: 5PX;
+    border: 1PX solid rgb(197, 197, 197);
+    overflow: hidden;
+}
+.pagePayment .inP2{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0PX;
+}
+.pagePayment .inpvalid{
+    margin-left: 10PX;
+    margin-right: 10PX;
+    background-color: red;
+    border: white;
+}
+.pagePayment .BtnPayment{
+    width: 55%;
+    height: 55PX;
+    background-color: var(--colorBleu2);
+    margin-top: 20PX;
+    border-radius: 5PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20PX;
+    cursor: pointer;
+    font-family: var(--font1);
+}
+.pagePayment .BtnPayment:hover{
+    background-color: var(--colorBleu);
+}
+.pagePayment .support{
+    width: 100%;
+    height: fit-content;
+    font-size: 20PX;
+    font-family: var(--font1);
+    margin-top: 30PX;
+    color: rgb(77, 77, 77);
+}
+.pagePayment .supportedimg{
+    width: 100%;
+    height: 40PX;
+    display: flex;
+    align-items: center;
+    margin-top: 15PX;
+}
+.pagePayment .imgcard{
+    height: 30PX;
+}
+.pagePayment .imgcard2{
+    height: 25PX;
+    margin-left: 20PX;
+}
+.pagePayment .line{
+    width: 100%;
+    height: 2PX;
+    background-color: rgb(199, 199, 199);
+    margin-top: 30PX;
+    margin-bottom: 20PX;
+}

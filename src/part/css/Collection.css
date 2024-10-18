@@ -1,0 +1,106 @@
+@import url('../../component/css/librery.css');
+
+.CollectionPart{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+}
+.CollectionPart .part{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+}
+.CollectionPart .partItem{
+    flex: 2;
+    height: fit-content;
+    border-radius: 10PX;
+    margin-left: 5PX;
+    margin-right: 5PX;
+    overflow: hidden;
+    padding: 10PX;
+    cursor: pointer;
+}
+.CollectionPart .partItem:hover{
+    background-color: #f7f7f7;
+    box-shadow: 0PX 0PX 10PX var(--colorGray2);
+}
+.CollectionPart .topPart{
+    width: 100%;
+    height: 70PX;
+    display: flex;
+    font-family: var(--font1);
+}
+.CollectionPart .topPartLeft{
+    flex: 1;
+    height: 100%;
+}
+.CollectionPart .TypeHotel{
+    flex: 1;
+    height: 45PX;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25PX;
+}
+.CollectionPart .numberAndIcone{
+    flex: 1;
+    height: 25PX;
+    display: flex;
+    align-items: center;
+}
+.CollectionPart .numberAndIcon{
+    width: fit-content;
+    height: fit-content;
+    font-size: 17PX;
+    display: flex;
+}
+.CollectionPart .maisonIcon{
+    width: 16PX;
+    height: 16PX;
+}
+.CollectionPart .number{
+    font-size: 15PX;
+    color: var(--colorGray);
+    font-family: var(--font1);
+    margin-left: 5PX;
+}
+.CollectionPart .placeImage{
+    width: 100%;
+    height: 170PX;
+    background-color: var(--colorGray);
+    border-radius: 10PX;
+    overflow: hidden;
+}
+.CollectionPart .maison{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+@media (max-width: 1000PX) {
+    .CollectionPart{
+        display: block;
+    }
+    .CollectionPart .part{
+        width: 100%;
+        margin-top: 5PX;
+    }
+}
+
+@media (max-width: 600PX) {
+    .CollectionPart .part{
+        display: block;
+    }
+    .CollectionPart .partItem{
+        flex: 1;
+        margin-top: 5PX;
+    }
+    .CollectionPart .part{
+        margin-top: 0PX;
+    }
+}
